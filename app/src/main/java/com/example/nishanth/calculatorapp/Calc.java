@@ -32,6 +32,8 @@ public class Calc {
 	public Double getValue(){
 		return stack.pop();
 	}
+
+	public boolean isEmpty() { return stack.isEmpty(); }
 	
 	public boolean isDouble(String val){
 		try{
